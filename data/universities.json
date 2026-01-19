@@ -1,9 +1,181 @@
 [
     {
-        "id": "unmul",
-        "name": "Universitas Mulawarman",
+        "id": "ui",
+        "name": "Universitas Indonesia (UI)",
         "type": "PTN",
-        "location": "Samarinda",
+        "location": "Depok, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://ui.ac.id",
+        "programs": [
+            "Pendidikan Dokter",
+            "Hukum",
+            "Ilmu Komputer",
+            "Psikologi",
+            "Akuntansi"
+        ],
+        "cost_range": "high",
+        "passing_grade": 89,
+        "description": "Kampus bergengsi nomor 1 di Indonesia. Sangat kompetitif."
+    },
+    {
+        "id": "ugm",
+        "name": "Universitas Gadjah Mada (UGM)",
+        "type": "PTN",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://ugm.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Farmasi",
+            "Teknik Sipil",
+            "Psikologi",
+            "Hukum"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 88,
+        "description": "Universitas kerakyatan dengan jaringan alumni terluas."
+    },
+    {
+        "id": "itb",
+        "name": "Institut Teknologi Bandung (ITB)",
+        "type": "PTN",
+        "location": "Bandung, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://itb.ac.id",
+        "programs": [
+            "Teknik Informatika",
+            "Teknik Pertambangan",
+            "FTTM",
+            "SBM",
+            "Desain Produk"
+        ],
+        "cost_range": "high",
+        "passing_grade": 90,
+        "description": "Pusat pendidikan teknologi dan seni terbaik di Indonesia."
+    },
+    {
+        "id": "ipb",
+        "name": "IPB University",
+        "type": "PTN",
+        "location": "Bogor, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://ipb.ac.id",
+        "programs": [
+            "Ilmu Komputer",
+            "Agribisnis",
+            "Teknologi Pangan",
+            "Kedokteran Hewan"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 86,
+        "description": "Institut Pertanian Bogor, terdepan dalam inovasi agromaritim."
+    },
+    {
+        "id": "unair",
+        "name": "Universitas Airlangga (UNAIR)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://unair.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Hukum",
+            "Farmasi",
+            "Kesehatan Masyarakat"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 87,
+        "description": "Pusat pendidikan kesehatan dan sosial humaniora terkemuka di Timur Jawa."
+    },
+    {
+        "id": "its",
+        "name": "Institut Teknologi Sepuluh Nopember (ITS)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://its.ac.id",
+        "programs": [
+            "Teknik Informatika",
+            "Teknik Sistem Perkapalan",
+            "Desain Interior"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 87,
+        "description": "Kampus teknologi unggulan dengan prestasi robotika dunia."
+    },
+    {
+        "id": "undip",
+        "name": "Universitas Diponegoro (UNDIP)",
+        "type": "PTN",
+        "location": "Semarang, Jawa Tengah",
+        "accreditation": "Unggul",
+        "website": "https://undip.ac.id",
+        "programs": [
+            "Hukum",
+            "Psikologi",
+            "Teknik Sipil",
+            "Kesehatan Masyarakat"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 85,
+        "description": "Universitas riset yang kuat dengan lingkungan belajar kondusif."
+    },
+    {
+        "id": "unpad",
+        "name": "Universitas Padjadjaran (UNPAD)",
+        "type": "PTN",
+        "location": "Sumedang, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://unpad.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Komunikasi",
+            "Hubungan Internasional",
+            "Farmasi"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 86,
+        "description": "Kampus paling diminati di SNBP dengan jurusan komunikasi top tier."
+    },
+    {
+        "id": "ub",
+        "name": "Universitas Brawijaya (UB)",
+        "type": "PTN",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://ub.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Hukum",
+            "Administrasi Bisnis",
+            "Ilmu Komputer"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 85,
+        "description": "Universitas dengan jumlah mahasiswa terbanyak dan fasilitas lengkap."
+    },
+    {
+        "id": "unhas",
+        "name": "Universitas Hasanuddin (UNHAS)",
+        "type": "PTN",
+        "location": "Makassar, Sulawesi Selatan",
+        "accreditation": "Unggul",
+        "website": "https://unhas.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Kesehatan Masyarakat",
+            "Teknik Sipil",
+            "Hubungan Internasional"
+        ],
+        "cost_range": "medium",
+        "passing_grade": 84,
+        "description": "Kampus terbesar di Indonesia Timur, pusat kajian maritim."
+    },
+    {
+        "id": "unmul",
+        "name": "Universitas Mulawarman (UNMUL)",
+        "type": "PTN",
+        "location": "Samarinda, Kalimantan Timur",
         "accreditation": "A",
         "website": "https://unmul.ac.id",
         "programs": [
@@ -11,32 +183,35 @@
             "Farmasi",
             "Teknik Informatika",
             "Hukum",
-            "Ekonomi"
+            "Kehutanan"
         ],
         "cost_range": "low",
-        "description": "Universitas tertua dan terbesar di Kalimantan Timur."
+        "passing_grade": 82,
+        "description": "Universitas tertua dan terbesar di Kalimantan Timur. Pilihan utama anak Kaltim."
     },
     {
         "id": "itk",
-        "name": "Institut Teknologi Kalimantan",
+        "name": "Institut Teknologi Kalimantan (ITK)",
         "type": "PTN",
-        "location": "Balikpapan",
+        "location": "Balikpapan, Kalimantan Timur",
         "accreditation": "B",
         "website": "https://itk.ac.id",
         "programs": [
             "Teknik Mesin",
             "Teknik Sipil",
             "Sistem Informasi",
-            "Matematika"
+            "Matematika",
+            "Teknik Perkapalan"
         ],
         "cost_range": "medium",
-        "description": "Institut teknologi negeri yang fokus pada kebutuhan industri di Kalimantan."
+        "passing_grade": 80,
+        "description": "Institut teknologi negeri yang fokus pada kebutuhan industri IKN."
     },
     {
         "id": "polnes",
         "name": "Politeknik Negeri Samarinda",
         "type": "PTN",
-        "location": "Samarinda",
+        "location": "Samarinda, Kalimantan Timur",
         "accreditation": "B",
         "website": "https://polnes.ac.id",
         "programs": [
@@ -46,13 +221,30 @@
             "Pariwisata"
         ],
         "cost_range": "low",
-        "description": "Pendidikan vokasi terkemuka di Kalimantan Timur."
+        "passing_grade": 78,
+        "description": "Pendidikan vokasi terkemuka di Kalimantan Timur. Fokus skill siap kerja."
+    },
+    {
+        "id": "poltekba",
+        "name": "Politeknik Negeri Balikpapan",
+        "type": "PTN",
+        "location": "Balikpapan, Kalimantan Timur",
+        "accreditation": "Baik Sekali",
+        "website": "https://poltekba.ac.id",
+        "programs": [
+            "Teknik Mesin Alat Berat",
+            "Tata Boga",
+            "Perbankan dan Keuangan"
+        ],
+        "cost_range": "low",
+        "passing_grade": 77,
+        "description": "Politeknik dengan link and match industri yang kuat di Balikpapan."
     },
     {
         "id": "umkt",
         "name": "Universitas Muhammadiyah Kalimantan Timur",
         "type": "PTS",
-        "location": "Samarinda",
+        "location": "Samarinda, Kalimantan Timur",
         "accreditation": "Baik Sekali",
         "website": "https://umkt.ac.id",
         "programs": [
@@ -62,13 +254,14 @@
             "Manajemen"
         ],
         "cost_range": "medium",
-        "description": "PTS terbesar di Kaltim dengan fasilitas modern."
+        "passing_grade": 75,
+        "description": "PTS terbesar di Kaltim dengan fasilitas modern dan kerjasama internasional."
     },
     {
         "id": "untag-smd",
         "name": "Universitas 17 Agustus 1945 Samarinda",
         "type": "PTS",
-        "location": "Samarinda",
+        "location": "Samarinda, Kalimantan Timur",
         "accreditation": "B",
         "website": "https://untag-smd.ac.id",
         "programs": [
@@ -78,13 +271,14 @@
             "Arsitektur"
         ],
         "cost_range": "medium",
-        "description": "Kampus Merah Putih dengan sejarah panjang di Samarinda."
+        "passing_grade": 74,
+        "description": "Kampus Merah Putih dengan sejarah panjang dan alumni berpengaruh."
     },
     {
         "id": "uniba",
         "name": "Universitas Balikpapan",
         "type": "PTS",
-        "location": "Balikpapan",
+        "location": "Balikpapan, Kalimantan Timur",
         "accreditation": "B",
         "website": "https://uniba-bpn.ac.id",
         "programs": [
@@ -94,6 +288,72 @@
             "Hukum"
         ],
         "cost_range": "medium",
-        "description": "Universitas swasta terkemuka di kota minyak Balikpapan."
+        "passing_grade": 74,
+        "description": "Universitas swasta terkemuka di kota minyak Balikpapan. Unggul di K3."
+    },
+    {
+        "id": "uwgm",
+        "name": "Universitas Widya Gama Mahakam",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "Baik",
+        "website": "https://uwgm.ac.id",
+        "programs": [
+            "PGSD",
+            "Manajemen",
+            "Ilmu Pemerintahan"
+        ],
+        "cost_range": "low",
+        "passing_grade": 72,
+        "description": "Kampus terjangkau dengan kualitas pendidikan yang terus meningkat."
+    },
+    {
+        "id": "binus",
+        "name": "BINUS University",
+        "type": "PTS",
+        "location": "Jakarta / Malang / Bandung",
+        "accreditation": "Unggul",
+        "website": "https://binus.ac.id",
+        "programs": [
+            "Computer Science",
+            "DKV",
+            "Bisnis Digital"
+        ],
+        "cost_range": "high",
+        "passing_grade": 80,
+        "description": "PTS berkelas dunia dengan fokus teknologi dan entrepreneurship."
+    },
+    {
+        "id": "telkom",
+        "name": "Telkom University",
+        "type": "PTS",
+        "location": "Bandung, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://telkomuniversity.ac.id",
+        "programs": [
+            "Teknik Telekomunikasi",
+            "Informatika",
+            "MBTI"
+        ],
+        "cost_range": "high",
+        "passing_grade": 82,
+        "description": "PTS terbaik di Indonesia versi berbagai pemeringkatan. Kampus ICT."
+    },
+    {
+        "id": "uii",
+        "name": "Universitas Islam Indonesia (UII)",
+        "type": "PTS",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://uii.ac.id",
+        "programs": [
+            "Kedokteran",
+            "Arsitektur",
+            "Hukum",
+            "Akuntansi"
+        ],
+        "cost_range": "high",
+        "passing_grade": 81,
+        "description": "Pionir pendidikan tinggi Islam di Indonesia dengan kualitas global."
     }
 ]

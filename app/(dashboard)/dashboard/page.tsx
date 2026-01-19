@@ -10,6 +10,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function DashboardPage() {
     const { data: session } = useSession();
+    // const session = await auth();
+    // if (!session) redirect("/login");
     const [profile, setProfile] = useState<OnboardingData | null>(null);
     const [loading, setLoading] = useState(true);
 

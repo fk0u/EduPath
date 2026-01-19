@@ -12,7 +12,7 @@ export function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="rounded-full px-8">
-                    <Link href="/signup">Get Started</Link>
+                    <Link href="/calculator">Try Calculator</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full px-8">
                     <Link href="#features">Learn More</Link>
