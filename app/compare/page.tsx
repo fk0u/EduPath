@@ -92,28 +92,36 @@ export default function ComparePage() {
                                 ))}
                             </tr>
                             <tr>
-                                <td className="p-4 font-medium text-slate-500">Est. Biaya</td>
+                                <td className="p-4 font-medium text-slate-500">Biaya Kuliah (UKT)</td>
                                 {selectedUniversities.map(u => (
-                                    <td key={u.id} className="p-4 capitalize">{u.cost_range}</td>
+                                    <td key={u.id} className="p-4 text-sm">{u.cost_range}</td>
                                 ))}
                             </tr>
                             <tr>
                                 <td className="p-4 font-medium text-slate-500 align-top">Pass Grade (Avg)</td>
                                 {selectedUniversities.map(u => (
                                     <td key={u.id} className="p-4">
-                                        <div className="text-2xl font-bold">{u.passing_grade}</div>
+                                        <div className="text-2xl font-bold text-blue-600">{u.passing_grade}</div>
                                     </td>
                                 ))}
                             </tr>
                             <tr>
-                                <td className="p-4 font-medium text-slate-500 align-top">Prodi Unggulan</td>
+                                <td className="p-4 font-medium text-slate-500 align-top">Prodi Unggulan & Karir</td>
                                 {selectedUniversities.map(u => (
                                     <td key={u.id} className="p-4">
-                                        <ul className="space-y-1">
+                                        <ul className="space-y-3">
                                             {u.top_prodi?.slice(0, 5).map(p => (
-                                                <li key={p.name} className="flex justify-between text-xs">
-                                                    <span>{p.name}</span>
-                                                    <span className="font-mono text-muted-foreground">{p.passing_grade}</span>
+                                                <li key={p.name} className="flex flex-col gap-1 text-xs border-b pb-2 last:border-0 last:pb-0">
+                                                    <div className="flex justify-between items-center">
+                                                        <span className="font-semibold text-slate-700">{p.name}</span>
+                                                        <Badge variant="outline" className="h-5 px-1 font-mono text-[10px]">{p.passing_grade}</Badge>
+                                                    </div>
+                                                    {p.prospects && (
+                                                        <div className="text-muted-foreground italic text-[10px] flex gap-1 items-start">
+                                                            <GraduationCap className="h-3 w-3 mt-0.5 shrink-0" />
+                                                            {p.prospects}
+                                                        </div>
+                                                    )}
                                                 </li>
                                             ))}
                                         </ul>
