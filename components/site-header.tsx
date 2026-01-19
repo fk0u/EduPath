@@ -22,7 +22,13 @@ export function SiteHeader() {
                         href="/dashboard"
                         className={`transition-colors hover:text-foreground/80 ${isActive("/dashboard") ? "text-foreground" : "text-foreground/60"}`}
                     >
-                        Explore
+                        My Dashboard
+                    </Link>
+                    <Link
+                        href="/explore"
+                        className={`transition-colors hover:text-foreground/80 ${isActive("/explore") ? "text-foreground" : "text-foreground/60"}`}
+                    >
+                        Find Majors
                     </Link>
                     <Link
                         href="/calculator"
