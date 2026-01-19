@@ -1,0 +1,92 @@
+[
+    {
+        "id": "kip-k",
+        "name": "KIP Kuliah Merdeka",
+        "provider": "Kemendikbud Ristek",
+        "type": "Full Coverage",
+        "amount": "Biaya Kuliah + Biaya Hidup (Rp 800rb - 1.4jt / bulan)",
+        "requirements": [
+            "Siswa SMA/SMK sederajat lulusan tahun berjalan atau 2 tahun sebelumnya",
+            "Memiliki potensi akademik baik",
+            "Keterbatasan ekonomi"
+        ],
+        "deadline": "Periode Pendaftaran SNBP/SNBT (Feb-April)",
+        "popular": true,
+        "logo_color": "bg-blue-600"
+    },
+    {
+        "id": "lpdp",
+        "name": "Beasiswa LPDP (S2/S3)",
+        "provider": "Kementerian Keuangan",
+        "type": "Full Coverage",
+        "amount": "Tanggungan Penuh + Tunjangan Keluarga dll",
+        "requirements": [
+            "WNI",
+            "Lulusan S1/D4",
+            "IPK Min 3.00",
+            "TOEFL/IELTS sesuai syarat"
+        ],
+        "deadline": "Tahap 1 (Januari), Tahap 2 (Juni)",
+        "popular": true,
+        "logo_color": "bg-yellow-600"
+    },
+    {
+        "id": "bkt",
+        "name": "Beasiswa Kaltim Tuntas (BKT)",
+        "provider": "Pemprov Kalimantan Timur",
+        "type": "Partial / Full",
+        "amount": "Bervariasi (Rp 4jt - 15jt / tahun)",
+        "requirements": [
+            "KTP Kalimantan Timur",
+            "Mahasiswa aktif / Calon Mahasiswa",
+            "IPK/Prestasi Akademik baik"
+        ],
+        "deadline": "Maret - Mei",
+        "popular": true,
+        "logo_color": "bg-green-600"
+    },
+    {
+        "id": "beasiswa-unggulan",
+        "name": "Beasiswa Unggulan",
+        "provider": "Kemendikbud",
+        "type": "Full Coverage",
+        "amount": "Biaya Pendidikan + Biaya Hidup + Buku",
+        "requirements": [
+            "Diterima di PTN/PTS Akreditasi B/Baik Sekali",
+            "Berprestasi tingkat nasional/internasional"
+        ],
+        "deadline": "Agustus",
+        "popular": false,
+        "logo_color": "bg-red-600"
+    },
+    {
+        "id": "djarum",
+        "name": "Djarum Beasiswa Plus",
+        "provider": "Djarum Foundation",
+        "type": "Allowance + Training",
+        "amount": "Rp 1.000.000 / bulan (1 Tahun)",
+        "requirements": [
+            "Mahasiswa S1/D4 Semester 4",
+            "IPK Minimum 3.00",
+            "Aktif Organisasi"
+        ],
+        "deadline": "April - Mei",
+        "popular": true,
+        "logo_color": "bg-red-800"
+    },
+    {
+        "id": "bca",
+        "name": "Beasiswa BCA (PPTI/PPBP)",
+        "provider": "Bank Central Asia",
+        "type": "Full Coverage + Job",
+        "amount": "Bebas Biaya Pendidikan + Uang Saku + Laptop + Magang",
+        "requirements": [
+            "Lulusan SMA/SMK",
+            "Nilai Rapor Rata-rata 7.50",
+            "Tidak buta warna (PPTI)"
+        ],
+        "deadline": "Mei - September",
+        "popular": false,
+        "logo_color": "bg-blue-800"
+    }
+]

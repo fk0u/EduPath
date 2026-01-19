@@ -36,6 +36,24 @@ export function SiteHeader() {
                     >
                         Profile Setup
                     </Link>
+                    <Link
+                        href="/compare"
+                        className={`transition-colors hover:text-foreground/80 ${isActive("/compare") ? "text-foreground" : "text-foreground/60"}`}
+                    >
+                        Compare
+                    </Link>
+                    <Link
+                        href="/timeline"
+                        className={`transition-colors hover:text-foreground/80 ${isActive("/timeline") ? "text-foreground" : "text-foreground/60"}`}
+                    >
+                        Timeline
+                    </Link>
+                    <Link
+                        href="/scholarships"
+                        className={`transition-colors hover:text-foreground/80 ${isActive("/scholarships") ? "text-foreground" : "text-foreground/60"}`}
+                    >
+                        Scholarships
+                    </Link>
                 </nav>
                 <div className="flex flex-1 items-center justify-end space-x-2">
                     {/* Future: User Dropdown or Login Button if we want hybrid */}

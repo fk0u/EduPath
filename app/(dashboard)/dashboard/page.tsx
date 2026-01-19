@@ -74,12 +74,12 @@ export default function DashboardPage() {
                         </CardHeader>
                         <CardContent>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {uni.programs.slice(0, 3).map(prog => (
-                                    <span key={prog} className="text-xs bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">
-                                        {prog}
+                                {uni.top_prodi?.slice(0, 3).map(prog => (
+                                    <span key={prog.name} className="text-xs bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">
+                                        {prog.name}
                                     </span>
                                 ))}
-                                {uni.programs.length > 3 && <span className="text-xs text-muted-foreground self-center">+{uni.programs.length - 3} more</span>}
+                                {(uni.top_prodi?.length || 0) > 3 && <span className="text-xs text-muted-foreground self-center">+{uni.top_prodi!.length - 3} more</span>}
                             </div>
                             <div className="flex justify-between items-center text-sm">
                                 <span className="font-medium text-blue-600">Accreditation: {uni.accreditation}</span>
