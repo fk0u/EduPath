@@ -22,7 +22,7 @@
                 "category": "Saintek",
                 "passing_grade": 92,
                 "capacity": 120,
-                "prospects": "Software Engineer, Data Scientist, AI Specialist"
+                "prospects": "Software Engineer, AI Specialist"
             },
             {
                 "name": "Ilmu Hukum",
@@ -144,6 +144,150 @@
         ]
     },
     {
+        "id": "ipb",
+        "name": "IPB University",
+        "type": "PTN",
+        "location": "Bogor, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://ipb.ac.id",
+        "cost_range": "Rp 2.4jt - 20jt/smt",
+        "passing_grade": 85,
+        "description": "Institut pertanian terdepan dengan inovasi agromaritim.",
+        "top_prodi": [
+            {
+                "name": "Ilmu Komputer",
+                "category": "Saintek",
+                "passing_grade": 88,
+                "capacity": 100,
+                "prospects": "Data Scientist, Programmer"
+            },
+            {
+                "name": "Statistika",
+                "category": "Saintek",
+                "passing_grade": 87,
+                "capacity": 90,
+                "prospects": "Actuary, Data Analyst"
+            },
+            {
+                "name": "Teknologi Pangan",
+                "category": "Saintek",
+                "passing_grade": 86,
+                "capacity": 110,
+                "prospects": "Food Technologist, QA Manager"
+            },
+            {
+                "name": "Bisnis",
+                "category": "Soshum",
+                "passing_grade": 85,
+                "capacity": 150,
+                "prospects": "Business Owner, Consultant"
+            },
+            {
+                "name": "Kedokteran Hewan",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 140,
+                "prospects": "Dokter Hewan, Peneliti Zoonosis"
+            }
+        ]
+    },
+    {
+        "id": "its",
+        "name": "Institut Teknologi Sepuluh Nopember (ITS)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://its.ac.id",
+        "cost_range": "Rp 500rb - 12.5jt/smt",
+        "passing_grade": 86,
+        "description": "Kampus teknologi unggulan di Indonesia Timur.",
+        "top_prodi": [
+            {
+                "name": "Teknik Informatika",
+                "category": "Saintek",
+                "passing_grade": 90,
+                "capacity": 150,
+                "prospects": "Software Developer, IT Manager"
+            },
+            {
+                "name": "Teknik Sistem Perkapalan",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 100,
+                "prospects": "Marine Engineer, Ship Surveyor"
+            },
+            {
+                "name": "Teknik Sipil",
+                "category": "Saintek",
+                "passing_grade": 85,
+                "capacity": 120,
+                "prospects": "Structural Engineer, Project Manager"
+            },
+            {
+                "name": "Arsitektur",
+                "category": "Saintek",
+                "passing_grade": 86,
+                "capacity": 80,
+                "prospects": "Architect, Urban Designer"
+            },
+            {
+                "name": "Sistem Informasi",
+                "category": "Saintek",
+                "passing_grade": 88,
+                "capacity": 100,
+                "prospects": "IS Manager, Business Analyst"
+            }
+        ]
+    },
+    {
+        "id": "unair",
+        "name": "Universitas Airlangga (UNAIR)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://unair.ac.id",
+        "cost_range": "Rp 500rb - 25jt/smt",
+        "passing_grade": 87,
+        "description": "Pusat pendidikan kesehatan dan sosial humaniora terkemuka.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 93,
+                "capacity": 150,
+                "prospects": "Dokter Spesialis"
+            },
+            {
+                "name": "Kedokteran Gigi",
+                "category": "Saintek",
+                "passing_grade": 90,
+                "capacity": 120,
+                "prospects": "Dokter Gigi"
+            },
+            {
+                "name": "Farmasi",
+                "category": "Saintek",
+                "passing_grade": 89,
+                "capacity": 140,
+                "prospects": "Clinical Pharmacist"
+            },
+            {
+                "name": "Hukum",
+                "category": "Soshum",
+                "passing_grade": 87,
+                "capacity": 200,
+                "prospects": "Corporate Lawyer"
+            },
+            {
+                "name": "Hubungan Internasional",
+                "category": "Soshum",
+                "passing_grade": 88,
+                "capacity": 100,
+                "prospects": "Diplomat, International NGO"
+            }
+        ]
+    },
+    {
         "id": "unmul",
         "name": "Universitas Mulawarman (UNMUL)",
         "type": "PTN",
@@ -214,7 +358,7 @@
                 "category": "Saintek",
                 "passing_grade": 83,
                 "capacity": 100,
-                "prospects": "Mechanical Engineer, Maintenance Supervisor"
+                "prospects": "Mechanical Engineer, Maintenance"
             },
             {
                 "name": "Teknik Sipil",
@@ -421,6 +565,1156 @@
                 "passing_grade": 71,
                 "capacity": 200,
                 "prospects": "Business Admin, Sales Manager"
+            }
+        ]
+    },
+    {
+        "id": "undip",
+        "name": "Universitas Diponegoro (UNDIP)",
+        "type": "PTN",
+        "location": "Semarang, Jawa Tengah",
+        "accreditation": "Unggul",
+        "website": "https://undip.ac.id",
+        "cost_range": "Rp 500rb - 20jt/smt",
+        "passing_grade": 83,
+        "description": "Kampus riset terkemuka di Jawa Tengah.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 92,
+                "capacity": 130,
+                "prospects": "Dokter"
+            },
+            {
+                "name": "Hukum",
+                "category": "Soshum",
+                "passing_grade": 86,
+                "capacity": 400,
+                "prospects": "Jaksa, Hakim"
+            },
+            {
+                "name": "Teknik Sipil",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 150,
+                "prospects": "Project Manager"
+            }
+        ]
+    },
+    {
+        "id": "ub",
+        "name": "Universitas Brawijaya (UB)",
+        "type": "PTN",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://ub.ac.id",
+        "cost_range": "Rp 500rb - 21jt/smt",
+        "passing_grade": 83,
+        "description": "Salah satu kampus dengan jumlah mahasiswa terbanyak di Indonesia.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 91,
+                "capacity": 180,
+                "prospects": "Dokter"
+            },
+            {
+                "name": "Teknik Informatika",
+                "category": "Saintek",
+                "passing_grade": 87,
+                "capacity": 160,
+                "prospects": "Software Eng"
+            },
+            {
+                "name": "Ilmu Hukum",
+                "category": "Soshum",
+                "passing_grade": 85,
+                "capacity": 300,
+                "prospects": "Lawyer"
+            }
+        ]
+    },
+    {
+        "id": "unpad",
+        "name": "Universitas Padjadjaran (UNPAD)",
+        "type": "PTN",
+        "location": "Jatinangor, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://unpad.ac.id",
+        "cost_range": "Rp 500rb - 15jt/smt",
+        "passing_grade": 84,
+        "description": "Universitas favorit di Jawa Barat dengan lingkungan asri.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Dokter",
+                "category": "Saintek",
+                "passing_grade": 91,
+                "capacity": 150,
+                "prospects": "Dokter"
+            },
+            {
+                "name": "Komunikasi",
+                "category": "Soshum",
+                "passing_grade": 88,
+                "capacity": 120,
+                "prospects": "PR, Journalist"
+            },
+            {
+                "name": "Farmasi",
+                "category": "Saintek",
+                "passing_grade": 89,
+                "capacity": 100,
+                "prospects": "Apoteker"
+            }
+        ]
+    },
+    {
+        "id": "uns",
+        "name": "Universitas Sebelas Maret (UNS)",
+        "type": "PTN",
+        "location": "Surakarta, Jawa Tengah",
+        "accreditation": "Unggul",
+        "website": "https://uns.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 81,
+        "description": "Kampus budaya dengan biaya hidup terjangkau.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 90,
+                "capacity": 120,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "unhas",
+        "name": "Universitas Hasanuddin (UNHAS)",
+        "type": "PTN",
+        "location": "Makassar, Sulawesi Selatan",
+        "accreditation": "Unggul",
+        "website": "https://unhas.ac.id",
+        "cost_range": "Rp 500rb - 18jt/smt",
+        "passing_grade": 82,
+        "description": "Kampus terbesar di Indonesia Timur.",
+        "top_prodi": [
+            {
+                "name": "Kesehatan Masyarakat",
+                "category": "Saintek",
+                "passing_grade": 83,
+                "capacity": 150,
+                "prospects": "Ahli K3"
+            }
+        ]
+    },
+    {
+        "id": "usu",
+        "name": "Universitas Sumatera Utara (USU)",
+        "type": "PTN",
+        "location": "Medan, Sumatera Utara",
+        "accreditation": "Unggul",
+        "website": "https://usu.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 80,
+        "description": "Universitas tertua di Pulau Sumatera.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Dokter",
+                "category": "Saintek",
+                "passing_grade": 89,
+                "capacity": 120,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "unand",
+        "name": "Universitas Andalas (UNAND)",
+        "type": "PTN",
+        "location": "Padang, Sumatera Barat",
+        "accreditation": "Unggul",
+        "website": "https://unand.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 79,
+        "description": "Kampus hijau di perbukitan Limau Manis.",
+        "top_prodi": [
+            {
+                "name": "Farmasi",
+                "category": "Saintek",
+                "passing_grade": 85,
+                "capacity": 110,
+                "prospects": "Apoteker"
+            }
+        ]
+    },
+    {
+        "id": "unud",
+        "name": "Universitas Udayana (UNUD)",
+        "type": "PTN",
+        "location": "Jimbaran, Bali",
+        "accreditation": "Unggul",
+        "website": "https://unud.ac.id",
+        "cost_range": "Rp 500rb - 15jt/smt",
+        "passing_grade": 80,
+        "description": "Pusat pendidikan tinggi terbesar di Bali.",
+        "top_prodi": [
+            {
+                "name": "Pariwisata",
+                "category": "Soshum",
+                "passing_grade": 82,
+                "capacity": 120,
+                "prospects": "Manager Hotel, Tour Consultant"
+            }
+        ]
+    },
+    {
+        "id": "upi",
+        "name": "Universitas Pendidikan Indonesia (UPI)",
+        "type": "PTN",
+        "location": "Bandung, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://upi.edu",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 78,
+        "description": "Kampus pelopor pendidikan guru di Indonesia.",
+        "top_prodi": [
+            {
+                "name": "PGSD",
+                "category": "Soshum",
+                "passing_grade": 85,
+                "capacity": 200,
+                "prospects": "Guru SD"
+            }
+        ]
+    },
+    {
+        "id": "uny",
+        "name": "Universitas Negeri Yogyakarta (UNY)",
+        "type": "PTN",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://uny.ac.id",
+        "cost_range": "Rp 500rb - 7jt/smt",
+        "passing_grade": 79,
+        "description": "Kampus pendidikan vokasi dan akademik unggul.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Teknik Informatika",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 80,
+                "prospects": "Guru SMK, IT Support"
+            }
+        ]
+    },
+    {
+        "id": "unnes",
+        "name": "Universitas Negeri Semarang (UNNES)",
+        "type": "PTN",
+        "location": "Semarang, Jawa Tengah",
+        "accreditation": "Unggul",
+        "website": "https://unnes.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 78,
+        "description": "Universitas berwawasan konservasi.",
+        "top_prodi": [
+            {
+                "name": "Akuntansi",
+                "category": "Soshum",
+                "passing_grade": 85,
+                "capacity": 200,
+                "prospects": "Akuntan"
+            }
+        ]
+    },
+    {
+        "id": "unesa",
+        "name": "Universitas Negeri Surabaya (UNESA)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://unesa.ac.id",
+        "cost_range": "Rp 500rb - 7.5jt/smt",
+        "passing_grade": 78,
+        "description": "Kampus inklusif dengan keunggulan olahraga dan seni.",
+        "top_prodi": [
+            {
+                "name": "Ilmu Keolahragaan",
+                "category": "Saintek",
+                "passing_grade": 75,
+                "capacity": 150,
+                "prospects": "Pelatih, Konsultan Kebugaran"
+            }
+        ]
+    },
+    {
+        "id": "um",
+        "name": "Universitas Negeri Malang (UM)",
+        "type": "PTN",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://um.ac.id",
+        "cost_range": "Rp 500rb - 7.5jt/smt",
+        "passing_grade": 79,
+        "description": "The Learning University.",
+        "top_prodi": [
+            {
+                "name": "Desain Komunikasi Visual",
+                "category": "Soshum",
+                "passing_grade": 84,
+                "capacity": 100,
+                "prospects": "Desainer Grafis, Illustrator"
+            }
+        ]
+    },
+    {
+        "id": "unej",
+        "name": "Universitas Jember (UNEJ)",
+        "type": "PTN",
+        "location": "Jember, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://unej.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 81,
+        "description": "Kampus Tegalboto.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Dokter",
+                "category": "Saintek",
+                "passing_grade": 88,
+                "capacity": 80,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "unsoed",
+        "name": "Universitas Jenderal Soedirman (UNSOED)",
+        "type": "PTN",
+        "location": "Purwokerto, Jawa Tengah",
+        "accreditation": "Unggul",
+        "website": "https://unsoed.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 80,
+        "description": "Maju Terus Pantang Mundur.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 89,
+                "capacity": 100,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "unsri",
+        "name": "Universitas Sriwijaya (UNSRI)",
+        "type": "PTN",
+        "location": "Palembang, Sumatera Selatan",
+        "accreditation": "Unggul",
+        "website": "https://unsri.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 80,
+        "description": "Kampus terluas di Asia Tenggara.",
+        "top_prodi": [
+            {
+                "name": "Teknik Pertambangan",
+                "category": "Saintek",
+                "passing_grade": 85,
+                "capacity": 80,
+                "prospects": "Mining Eng"
+            }
+        ]
+    },
+    {
+        "id": "unila",
+        "name": "Universitas Lampung (UNILA)",
+        "type": "PTN",
+        "location": "Bandar Lampung, Lampung",
+        "accreditation": "Unggul",
+        "website": "https://unila.ac.id",
+        "cost_range": "Rp 500rb - 12jt/smt",
+        "passing_grade": 79,
+        "description": "Kampus Hijau di Sumatera.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Dokter",
+                "category": "Saintek",
+                "passing_grade": 86,
+                "capacity": 150,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "syiah-kuala",
+        "name": "Universitas Syiah Kuala (USK)",
+        "type": "PTN",
+        "location": "Banda Aceh, Aceh",
+        "accreditation": "Unggul",
+        "website": "https://unsyiah.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 78,
+        "description": "Jantong Hatee Rakyat Aceh.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran Hewan",
+                "category": "Saintek",
+                "passing_grade": 80,
+                "capacity": 150,
+                "prospects": "Dokter Hewan"
+            }
+        ]
+    },
+    {
+        "id": "pnj",
+        "name": "Politeknik Negeri Jakarta (PNJ)",
+        "type": "PTN",
+        "location": "Depok, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://pnj.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 82,
+        "description": "Politeknik terfavorit di Jabodetabek.",
+        "top_prodi": [
+            {
+                "name": "Teknik Mesin",
+                "category": "Saintek",
+                "passing_grade": 83,
+                "capacity": 100,
+                "prospects": "Engineer"
+            }
+        ]
+    },
+    {
+        "id": "polban",
+        "name": "Politeknik Negeri Bandung (POLBAN)",
+        "type": "PTN",
+        "location": "Bandung, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://polban.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 84,
+        "description": "Politeknik dengan reputasi industri kuat.",
+        "top_prodi": [
+            {
+                "name": "Akuntansi",
+                "category": "Soshum",
+                "passing_grade": 85,
+                "capacity": 120,
+                "prospects": "Akuntan"
+            }
+        ]
+    },
+    {
+        "id": "pens",
+        "name": "Politeknik Elektronika Negeri Surabaya (PENS)",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://pens.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 85,
+        "description": "Kampus Jawaranya Robotika.",
+        "top_prodi": [
+            {
+                "name": "Teknik Informatika",
+                "category": "Saintek",
+                "passing_grade": 89,
+                "capacity": 90,
+                "prospects": "System Developer"
+            }
+        ]
+    },
+    {
+        "id": "polinema",
+        "name": "Politeknik Negeri Malang (POLINEMA)",
+        "type": "PTN",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://polinema.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 81,
+        "description": "Politeknik terbesar di Malang.",
+        "top_prodi": [
+            {
+                "name": "Teknik Listrik",
+                "category": "Saintek",
+                "passing_grade": 80,
+                "capacity": 100,
+                "prospects": "Electrical Eng"
+            }
+        ]
+    },
+    {
+        "id": "upn-jogja",
+        "name": "UPN Veteran Yogyakarta",
+        "type": "PTN",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://upnyk.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 82,
+        "description": "Kampus pionir Geologi dan Perminyakan.",
+        "top_prodi": [
+            {
+                "name": "Teknik Pertambangan",
+                "category": "Saintek",
+                "passing_grade": 87,
+                "capacity": 120,
+                "prospects": "Mining Eng"
+            }
+        ]
+    },
+    {
+        "id": "upn-jatim",
+        "name": "UPN Veteran Jawa Timur",
+        "type": "PTN",
+        "location": "Surabaya, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://upnjatim.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 80,
+        "description": "Kampus Bela Negara.",
+        "top_prodi": [
+            {
+                "name": "Informatika",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 150,
+                "prospects": "Software Eng"
+            }
+        ]
+    },
+    {
+        "id": "upn-jakarta",
+        "name": "UPN Veteran Jakarta",
+        "type": "PTN",
+        "location": "Jakarta Selatan",
+        "accreditation": "Unggul",
+        "website": "https://upnvj.ac.id",
+        "cost_range": "Rp 500rb - 15jt/smt",
+        "passing_grade": 83,
+        "description": "Kampus negeri di ibu kota.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 90,
+                "capacity": 100,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "uin-jkt",
+        "name": "UIN Syarif Hidayatullah Jakarta",
+        "type": "PTN",
+        "location": "Ciputat, Banten",
+        "accreditation": "Unggul",
+        "website": "https://uinjkt.ac.id",
+        "cost_range": "Rp 400rb - 8jt/smt",
+        "passing_grade": 81,
+        "description": "UIN tertua dan terkemuka.",
+        "top_prodi": [
+            {
+                "name": "Psikologi",
+                "category": "Soshum",
+                "passing_grade": 86,
+                "capacity": 150,
+                "prospects": "Psikolog"
+            }
+        ]
+    },
+    {
+        "id": "uin-suka",
+        "name": "UIN Sunan Kalijaga Yogyakarta",
+        "type": "PTN",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://uin-suka.ac.id",
+        "cost_range": "Rp 400rb - 7jt/smt",
+        "passing_grade": 80,
+        "description": "Kampus putih integrasi-interkoneksi.",
+        "top_prodi": [
+            {
+                "name": "Ilmu Perpustakaan",
+                "category": "Soshum",
+                "passing_grade": 82,
+                "capacity": 100,
+                "prospects": "Pustakawan"
+            }
+        ]
+    },
+    {
+        "id": "uin-malang",
+        "name": "UIN Maulana Malik Ibrahim Malang",
+        "type": "PTN",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://uin-malang.ac.id",
+        "cost_range": "Rp 400rb - 8jt/smt",
+        "passing_grade": 79,
+        "description": "World Class University & Pesantren.",
+        "top_prodi": [
+            {
+                "name": "Farmasi",
+                "category": "Saintek",
+                "passing_grade": 85,
+                "capacity": 100,
+                "prospects": "Apoteker"
+            }
+        ]
+    },
+    {
+        "id": "untirta",
+        "name": "Universitas Sultan Ageng Tirtayasa",
+        "type": "PTN",
+        "location": "Serang, Banten",
+        "accreditation": "Unggul",
+        "website": "https://untirta.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 78,
+        "description": "Kampus kebanggaan warga Banten.",
+        "top_prodi": [
+            {
+                "name": "Teknik Industri",
+                "category": "Saintek",
+                "passing_grade": 82,
+                "capacity": 120,
+                "prospects": "Industrial Eng"
+            }
+        ]
+    },
+    {
+        "id": "unsika",
+        "name": "Universitas Singaperbangsa Karawang",
+        "type": "PTN",
+        "location": "Karawang, Jawa Barat",
+        "accreditation": "Baik Sekali",
+        "website": "https://unsika.ac.id",
+        "cost_range": "Rp 500rb - 7jt/smt",
+        "passing_grade": 77,
+        "description": "Kampus negeri di kota industri.",
+        "top_prodi": [
+            {
+                "name": "Teknik Informatika",
+                "category": "Saintek",
+                "passing_grade": 81,
+                "capacity": 100,
+                "prospects": "Programmer"
+            }
+        ]
+    },
+    {
+        "id": "unram",
+        "name": "Universitas Mataram",
+        "type": "PTN",
+        "location": "Mataram, NTB",
+        "accreditation": "Unggul",
+        "website": "https://unram.ac.id",
+        "cost_range": "Rp 500rb - 8jt/smt",
+        "passing_grade": 78,
+        "description": "Pusat pendidikan di Nusa Tenggara.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Dokter",
+                "category": "Saintek",
+                "passing_grade": 86,
+                "capacity": 100,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "ilambung-mangkurat",
+        "name": "Universitas Lambung Mangkurat (ULM)",
+        "type": "PTN",
+        "location": "Banjarmasin, Kalsel",
+        "accreditation": "Unggul",
+        "website": "https://ulm.ac.id",
+        "cost_range": "Rp 500rb - 10jt/smt",
+        "passing_grade": 79,
+        "description": "Kampus tertua di Kalimantan.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran Gigi",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 80,
+                "prospects": "Dokter Gigi"
+            }
+        ]
+    },
+    {
+        "id": "untan",
+        "name": "Universitas Tanjungpura (UNTAN)",
+        "type": "PTN",
+        "location": "Pontianak, Kalbar",
+        "accreditation": "Unggul",
+        "website": "https://untan.ac.id",
+        "cost_range": "Rp 500rb - 9jt/smt",
+        "passing_grade": 79,
+        "description": "Universitas terbesar di Kalimantan Barat.",
+        "top_prodi": [
+            {
+                "name": "Farmasi",
+                "category": "Saintek",
+                "passing_grade": 83,
+                "capacity": 100,
+                "prospects": "Apoteker"
+            }
+        ]
+    },
+    {
+        "id": "unpar",
+        "name": "Universitas Palangka Raya",
+        "type": "PTN",
+        "location": "Palangka Raya, Kalteng",
+        "accreditation": "B",
+        "website": "https://upr.ac.id",
+        "cost_range": "Rp 500rb - 7jt/smt",
+        "passing_grade": 76,
+        "description": "Kampus negeri di Kalimantan Tengah.",
+        "top_prodi": [
+            {
+                "name": "Teknik Sipil",
+                "category": "Saintek",
+                "passing_grade": 78,
+                "capacity": 90,
+                "prospects": "Site Eng"
+            }
+        ]
+    },
+    {
+        "id": "binus",
+        "name": "BINUS University",
+        "type": "PTS",
+        "location": "Jakarta Barat",
+        "accreditation": "Unggul",
+        "website": "https://binus.ac.id",
+        "cost_range": "Rp 20jt - 30jt/smt",
+        "passing_grade": 85,
+        "description": "PTS Berkelas Dunia.",
+        "top_prodi": [
+            {
+                "name": "Computer Science",
+                "category": "Saintek",
+                "passing_grade": 87,
+                "capacity": 300,
+                "prospects": "Global Tech Talent"
+            }
+        ]
+    },
+    {
+        "id": "telkom",
+        "name": "Telkom University",
+        "type": "PTS",
+        "location": "Bandung, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://telkomuniversity.ac.id",
+        "cost_range": "Rp 10jt - 20jt/smt",
+        "passing_grade": 84,
+        "description": "PTS Terbaik di Indonesia.",
+        "top_prodi": [
+            {
+                "name": "Teknik Telekomunikasi",
+                "category": "Saintek",
+                "passing_grade": 86,
+                "capacity": 200,
+                "prospects": "Telco Engineer"
+            }
+        ]
+    },
+    {
+        "id": "uii",
+        "name": "Universitas Islam Indonesia (UII)",
+        "type": "PTS",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://uii.ac.id",
+        "cost_range": "Rp 10jt - 25jt/smt",
+        "passing_grade": 82,
+        "description": "Pionir pendidikan tinggi nasional.",
+        "top_prodi": [
+            {
+                "name": "Kedokteran",
+                "category": "Saintek",
+                "passing_grade": 88,
+                "capacity": 150,
+                "prospects": "Dokter"
+            }
+        ]
+    },
+    {
+        "id": "umy",
+        "name": "Universitas Muhammadiyah Yogyakarta",
+        "type": "PTS",
+        "location": "Yogyakarta",
+        "accreditation": "Unggul",
+        "website": "https://umy.ac.id",
+        "cost_range": "Rp 8jt - 18jt/smt",
+        "passing_grade": 81,
+        "description": "Muda Mendunia.",
+        "top_prodi": [
+            {
+                "name": "Hubungan Internasional",
+                "category": "Soshum",
+                "passing_grade": 83,
+                "capacity": 100,
+                "prospects": "Diplomat"
+            }
+        ]
+    },
+    {
+        "id": "umm",
+        "name": "Universitas Muhammadiyah Malang",
+        "type": "PTS",
+        "location": "Malang, Jawa Timur",
+        "accreditation": "Unggul",
+        "website": "https://umm.ac.id",
+        "cost_range": "Rp 7jt - 15jt/smt",
+        "passing_grade": 81,
+        "description": "Kampus Putih.",
+        "top_prodi": [
+            {
+                "name": "Psikologi",
+                "category": "Soshum",
+                "passing_grade": 84,
+                "capacity": 200,
+                "prospects": "HRD"
+            }
+        ]
+    },
+    {
+        "id": "atmacatholic",
+        "name": "Atma Jaya Catholic University",
+        "type": "PTS",
+        "location": "Jakarta",
+        "accreditation": "Unggul",
+        "website": "https://atmajaya.ac.id",
+        "cost_range": "Rp 15jt - 30jt/smt",
+        "passing_grade": 80,
+        "description": "Terdepan dalam kualitas akademik.",
+        "top_prodi": [
+            {
+                "name": "Psikologi",
+                "category": "Soshum",
+                "passing_grade": 83,
+                "capacity": 150,
+                "prospects": "Psikolog"
+            }
+        ]
+    },
+    {
+        "id": "trisakti",
+        "name": "Universitas Trisakti",
+        "type": "PTS",
+        "location": "Jakarta",
+        "accreditation": "Unggul",
+        "website": "https://trisakti.ac.id",
+        "cost_range": "Rp 15jt - 30jt/smt",
+        "passing_grade": 80,
+        "description": "Kampus Reformasi.",
+        "top_prodi": [
+            {
+                "name": "Teknik Perminyakan",
+                "category": "Saintek",
+                "passing_grade": 84,
+                "capacity": 100,
+                "prospects": "Petroleum Eng"
+            }
+        ]
+    },
+    {
+        "id": "gunadarma",
+        "name": "Universitas Gunadarma",
+        "type": "PTS",
+        "location": "Depok, Jawa Barat",
+        "accreditation": "Unggul",
+        "website": "https://gunadarma.ac.id",
+        "cost_range": "Rp 8jt - 15jt/smt",
+        "passing_grade": 78,
+        "description": "Berbasis Teknologi Informasi.",
+        "top_prodi": [
+            {
+                "name": "Sistem Informasi",
+                "category": "Saintek",
+                "passing_grade": 80,
+                "capacity": 300,
+                "prospects": "IT Staff"
+            }
+        ]
+    },
+    {
+        "id": "poltekba",
+        "name": "Politeknik Negeri Balikpapan (POLTEKBA)",
+        "type": "PTN",
+        "location": "Balikpapan, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://poltekba.ac.id",
+        "cost_range": "Rp 500rb - 7jt/smt",
+        "passing_grade": 75,
+        "description": "Pendidikan Vokasi di Kota Penyangga IKN.",
+        "top_prodi": [
+            {
+                "name": "Tata Boga",
+                "category": "Soshum",
+                "passing_grade": 74,
+                "capacity": 60,
+                "prospects": "Chef, F&B Manager"
+            },
+            {
+                "name": "Teknik Sipil",
+                "category": "Saintek",
+                "passing_grade": 75,
+                "capacity": 80,
+                "prospects": "Supervisor Proyek"
+            }
+        ]
+    },
+    {
+        "id": "sttmigas",
+        "name": "STT Migas Balikpapan",
+        "type": "PTS",
+        "location": "Balikpapan, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://sttmigas.ac.id",
+        "cost_range": "Rp 5jt - 12jt/smt",
+        "passing_grade": 73,
+        "description": "Sekolah Tinggi Teknologi Minyak dan Gas Bumi.",
+        "top_prodi": [
+            {
+                "name": "Teknik Perminyakan",
+                "category": "Saintek",
+                "passing_grade": 76,
+                "capacity": 100,
+                "prospects": "Drilling Eng"
+            },
+            {
+                "name": "Teknik Instrumentasi",
+                "category": "Saintek",
+                "passing_grade": 74,
+                "capacity": 80,
+                "prospects": "Instrument Eng"
+            }
+        ]
+    },
+    {
+        "id": "untag-smd",
+        "name": "Universitas 17 Agustus 1945 Samarinda",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://untag-smd.ac.id",
+        "cost_range": "Rp 3jt - 7jt/smt",
+        "passing_grade": 70,
+        "description": "Kampus Merah Putih di Samarinda.",
+        "top_prodi": [
+            {
+                "name": "Hukum",
+                "category": "Soshum",
+                "passing_grade": 72,
+                "capacity": 200,
+                "prospects": "Legal Staff"
+            },
+            {
+                "name": "Administrasi Negara",
+                "category": "Soshum",
+                "passing_grade": 71,
+                "capacity": 150,
+                "prospects": "PNS, Administrator"
+            }
+        ]
+    },
+    {
+        "id": "unwidha-klaten",
+        "name": "Universitas Widya Dharma",
+        "type": "PTS",
+        "location": "Klaten, Jawa Tengah",
+        "accreditation": "Baik",
+        "website": "https://unwidha.ac.id",
+        "cost_range": "Rp 2jt - 5jt/smt",
+        "passing_grade": 65,
+        "description": "Kampus budaya di Klaten.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Bahasa Jawa",
+                "category": "Soshum",
+                "passing_grade": 68,
+                "capacity": 50,
+                "prospects": "Guru Bahasa Jawa"
+            }
+        ]
+    },
+    {
+        "id": "uwgm",
+        "name": "Universitas Widya Gama Mahakam",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://uwgm.ac.id",
+        "cost_range": "Rp 2.5jt - 6jt/smt",
+        "passing_grade": 68,
+        "description": "Kampus Ungu Samarinda.",
+        "top_prodi": [
+            {
+                "name": "Pendidikan Guru SD",
+                "category": "Soshum",
+                "passing_grade": 70,
+                "capacity": 100,
+                "prospects": "Guru SD"
+            }
+        ]
+    },
+    {
+        "id": "politeknik-pertanian-samarinda",
+        "name": "Politeknik Pertanian Negeri Samarinda",
+        "type": "PTN",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://politanisamarinda.ac.id",
+        "cost_range": "Rp 500rb - 5jt/smt",
+        "passing_grade": 74,
+        "description": "Vokasi Pertanian dan Kehutanan.",
+        "top_prodi": [
+            {
+                "name": "Pengelolaan Hutan",
+                "category": "Saintek",
+                "passing_grade": 75,
+                "capacity": 80,
+                "prospects": "Polisi Hutan"
+            }
+        ]
+    },
+    {
+        "id": "universitas-bontang",
+        "name": "Universitas Tridinanti (Bontang)",
+        "type": "PTS",
+        "location": "Bontang, Kalimantan Timur",
+        "accreditation": "C",
+        "website": "#",
+        "cost_range": "Rp 3jt - 6jt/smt",
+        "passing_grade": 65,
+        "description": "Salah satu opsi pendidikan di Bontang.",
+        "top_prodi": [
+            {
+                "name": "Teknik Mesin",
+                "category": "Saintek",
+                "passing_grade": 68,
+                "capacity": 50,
+                "prospects": "Mekanik"
+            }
+        ]
+    },
+    {
+        "id": "stie-samarinda",
+        "name": "STIE Samarinda",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://stiesam.ac.id",
+        "cost_range": "Rp 2.5jt - 5jt/smt",
+        "passing_grade": 68,
+        "description": "Sekolah Tinggi Ilmu Ekonomi.",
+        "top_prodi": [
+            {
+                "name": "Manajemen",
+                "category": "Soshum",
+                "passing_grade": 70,
+                "capacity": 150,
+                "prospects": "Manajer"
+            }
+        ]
+    },
+    {
+        "id": "stmik-wicida",
+        "name": "STMIK Widya Cipta Dharma",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://wicida.ac.id",
+        "cost_range": "Rp 3jt - 6jt/smt",
+        "passing_grade": 70,
+        "description": "Kampus IT di Samarinda.",
+        "top_prodi": [
+            {
+                "name": "Sistem Informasi",
+                "category": "Saintek",
+                "passing_grade": 72,
+                "capacity": 100,
+                "prospects": "IT Support"
+            }
+        ]
+    },
+    {
+        "id": "sti-pranata",
+        "name": "STI Pranata Indonesia Samarinda",
+        "type": "PTS",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "C",
+        "website": "#",
+        "cost_range": "Rp 2jt - 4jt/smt",
+        "passing_grade": 65,
+        "description": "Sekolah Tinggi Informatika.",
+        "top_prodi": [
+            {
+                "name": "Manajemen Informatika",
+                "category": "Saintek",
+                "passing_grade": 66,
+                "capacity": 50,
+                "prospects": "Admin"
+            }
+        ]
+    },
+    {
+        "id": "poltekkes-kaltim",
+        "name": "Poltekkes Kemenkes Kaltim",
+        "type": "PTN",
+        "location": "Samarinda, Kalimantan Timur",
+        "accreditation": "Baik Sekali",
+        "website": "https://poltekkes-kaltim.ac.id",
+        "cost_range": "Rp 3jt - 7jt/smt",
+        "passing_grade": 78,
+        "description": "Pendidikan kesehatan di bawah Kemenkes.",
+        "top_prodi": [
+            {
+                "name": "Keperawatan",
+                "category": "Saintek",
+                "passing_grade": 80,
+                "capacity": 100,
+                "prospects": "Perawat"
+            },
+            {
+                "name": "Kebidanan",
+                "category": "Saintek",
+                "passing_grade": 79,
+                "capacity": 80,
+                "prospects": "Bidan"
+            }
+        ]
+    },
+    {
+        "id": "universitas-kutai-kartanegara",
+        "name": "Universitas Kutai Kartanegara (Unikarta)",
+        "type": "PTS",
+        "location": "Tenggarong, Kalimantan Timur",
+        "accreditation": "B",
+        "website": "https://unikarta.ac.id",
+        "cost_range": "Rp 2.5jt - 5jt/smt",
+        "passing_grade": 69,
+        "description": "Kampus Ungu di Kota Raja.",
+        "top_prodi": [
+            {
+                "name": "Administrasi Negara",
+                "category": "Soshum",
+                "passing_grade": 72,
+                "capacity": 100,
+                "prospects": "PNS Daerah"
             }
         ]
     }
