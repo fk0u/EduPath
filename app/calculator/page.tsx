@@ -111,7 +111,36 @@ export default function CalculatorPage() {
         if (diff >= 2) return { label: "Berpeluang Besar", color: "text-emerald-600", bg: "bg-emerald-100", bar: "bg-emerald-600", chance: 75 };
         if (diff >= -2) return { label: "Kompetitif / Cukup", color: "text-blue-600", bg: "bg-blue-100", bar: "bg-blue-600", chance: 50 };
         if (diff >= -5) return { label: "Butuh Kerja Keras", color: "text-orange-600", bg: "bg-orange-100", bar: "bg-orange-600", chance: 30 };
-        return { label: "Sulit", color: "text-red-600", bg: "bg-red-100", bar: "bg-red-600", chance: 15 };
+
+        // Smart Recommendations Logic
+        const recs = [];
+        // 1. Same Major, Different Uni (Lower Grade)
+        if (targetProdiName) {
+            const similarProdis = universities.flatMap(u =>
+                (u.top_prodi || [])
+                    .filter(p => p.name.includes(targetProdiName) || targetProdiName.includes(p.name))
+                    .map(p => ({ uni: u.name, ...p }))
+            ).filter(p => p.passing_grade <= averages.final && p.uni !== uni.name).slice(0, 2);
+
+            if (similarProdis.length > 0) recs.push(...similarProdis);
+        }
+
+        // 2. Different Major, Same Uni (Lower Grade)
+        if (uni.top_prodi) {
+            const easierProdis = uni.top_prodi
+                .filter(p => p.passing_grade <= averages.final && p.name !== targetProdiName)
+                .slice(0, 2);
+            if (easierProdis.length > 0) recs.push(...easierProdis);
+        }
+
+        return {
+            label: "Sulit",
+            color: "text-red-600",
+            bg: "bg-red-50",
+            bar: "bg-red-600",
+            chance: 15,
+            recommendations: recs
+        };
     }, [averages.final, targetUniId, targetProdiName]);
 
     const targetUni = universities.find(u => u.id === targetUniId);
@@ -276,15 +305,40 @@ export default function CalculatorPage() {
                             )}
                         </CardContent>
                         {prediction && (
-                            <CardFooter className={`${prediction.bg} border-t flex flex-col items-start gap-3 p-6 animate-in fade-in slide-in-from-bottom-5`}>
-                                <div className="w-full flex justify-between items-center mb-1">
-                                    <span className={`font-bold text-lg ${prediction.color}`}>{prediction.label}</span>
-                                    <span className="text-sm font-mono font-bold">{prediction.chance}%</span>
+                            <CardFooter className={`${prediction.bg} border-t flex flex-col items-start gap-4 p-6 animate-in fade-in slide-in-from-bottom-5`}>
+                                <div className="w-full">
+                                    <div className="flex justify-between items-center mb-2">
+                                        <span className={`font-bold text-lg ${prediction.color}`}>{prediction.label}</span>
+                                        <span className="text-sm font-mono font-bold">{prediction.chance}%</span>
+                                    </div>
+                                    <Progress value={prediction.chance} className={`h-3 w-full bg-white/50 [&>div]:${prediction.bar}`} />
+                                    <p className="text-xs text-muted-foreground mt-2">
+                                        Butuh rata-rata: <strong>{targetProdiName ? universities.find(u => u.id === targetUniId)?.top_prodi?.find(p => p.name === targetProdiName)?.passing_grade : universities.find(u => u.id === targetUniId)?.passing_grade}</strong>
+                                    </p>
                                 </div>
-                                <Progress value={prediction.chance} className={`h-3 w-full ${prediction.bar} [&>div]:bg-current`} />
-                                <p className="text-xs text-muted-foreground mt-2">
-                                    Grade {targetProdiName || targetUni?.name}: <strong>{targetProdiName ? universities.find(u => u.id === targetUniId)?.top_prodi?.find(p => p.name === targetProdiName)?.passing_grade : universities.find(u => u.id === targetUniId)?.passing_grade}</strong>
-                                </p>
+
+                                {/* Smart Recommendations Display */}
+                                {prediction.recommendations && prediction.recommendations.length > 0 && (
+                                    <div className="w-full mt-2 pt-4 border-t border-red-200">
+                                        <div className="flex items-center gap-2 mb-3 text-red-800 font-semibold text-sm">
+                                            <Trophy className="h-4 w-4" />
+                                            Rekomendasi Pintar ("Safety Net")
+                                        </div>
+                                        <div className="space-y-2">
+                                            {prediction.recommendations.map((rec: any, idx: number) => (
+                                                <div key={idx} className="bg-white p-3 rounded-lg border shadow-sm text-sm flex justify-between items-center">
+                                                    <div>
+                                                        <div className="font-medium text-slate-800">{rec.name}</div>
+                                                        <div className="text-xs text-slate-500">{rec.uni || "Jurusan Lain di Kampus Ini"}</div>
+                                                    </div>
+                                                    <div className="text-green-600 font-bold text-xs bg-green-50 px-2 py-1 rounded">
+                                                        Pass: {rec.passing_grade}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
                             </CardFooter>
                         )}
                     </Card>
