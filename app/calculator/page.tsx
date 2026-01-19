@@ -286,14 +286,13 @@ export default function CalculatorPage() {
                                 </Select>
                             </div>
                             {targetUni && targetUni.top_prodi && (
-                                <div className="space-y-2">
                                     <Label>Program Studi (Opsional)</Label>
-                                    <Select onValueChange={setTargetProdiName}>
+                                    <Select onValueChange={(val) => setTargetProdiName(val === "general" ? "" : val)}>
                                         <SelectTrigger>
                                             <SelectValue placeholder="Pilih Prodi" />
                                         </SelectTrigger>
                                         <SelectContent>
-                                            <SelectItem value="">-- Hanya Universitas --</SelectItem>
+                                            <SelectItem value="general">-- Hanya Universitas --</SelectItem>
                                             {targetUni.top_prodi.map(p => (
                                                 <SelectItem key={p.name} value={p.name}>
                                                     {p.name} (Grade: {p.passing_grade})
@@ -303,48 +302,48 @@ export default function CalculatorPage() {
                                     </Select>
                                 </div>
                             )}
-                        </CardContent>
-                        {prediction && (
-                            <CardFooter className={`${prediction.bg} border-t flex flex-col items-start gap-4 p-6 animate-in fade-in slide-in-from-bottom-5`}>
-                                <div className="w-full">
-                                    <div className="flex justify-between items-center mb-2">
-                                        <span className={`font-bold text-lg ${prediction.color}`}>{prediction.label}</span>
-                                        <span className="text-sm font-mono font-bold">{prediction.chance}%</span>
-                                    </div>
-                                    <Progress value={prediction.chance} className={`h-3 w-full bg-white/50 [&>div]:${prediction.bar}`} />
-                                    <p className="text-xs text-muted-foreground mt-2">
-                                        Butuh rata-rata: <strong>{targetProdiName ? universities.find(u => u.id === targetUniId)?.top_prodi?.find(p => p.name === targetProdiName)?.passing_grade : universities.find(u => u.id === targetUniId)?.passing_grade}</strong>
-                                    </p>
+                    </CardContent>
+                    {prediction && (
+                        <CardFooter className={`${prediction.bg} border-t flex flex-col items-start gap-4 p-6 animate-in fade-in slide-in-from-bottom-5`}>
+                            <div className="w-full">
+                                <div className="flex justify-between items-center mb-2">
+                                    <span className={`font-bold text-lg ${prediction.color}`}>{prediction.label}</span>
+                                    <span className="text-sm font-mono font-bold">{prediction.chance}%</span>
                                 </div>
+                                <Progress value={prediction.chance} className={`h-3 w-full bg-white/50 [&>div]:${prediction.bar}`} />
+                                <p className="text-xs text-muted-foreground mt-2">
+                                    Butuh rata-rata: <strong>{targetProdiName ? universities.find(u => u.id === targetUniId)?.top_prodi?.find(p => p.name === targetProdiName)?.passing_grade : universities.find(u => u.id === targetUniId)?.passing_grade}</strong>
+                                </p>
+                            </div>
 
-                                {/* Smart Recommendations Display */}
-                                {prediction.recommendations && prediction.recommendations.length > 0 && (
-                                    <div className="w-full mt-2 pt-4 border-t border-red-200">
-                                        <div className="flex items-center gap-2 mb-3 text-red-800 font-semibold text-sm">
-                                            <Trophy className="h-4 w-4" />
-                                            Rekomendasi Pintar ("Safety Net")
-                                        </div>
-                                        <div className="space-y-2">
-                                            {prediction.recommendations.map((rec: any, idx: number) => (
-                                                <div key={idx} className="bg-white p-3 rounded-lg border shadow-sm text-sm flex justify-between items-center">
-                                                    <div>
-                                                        <div className="font-medium text-slate-800">{rec.name}</div>
-                                                        <div className="text-xs text-slate-500">{rec.uni || "Jurusan Lain di Kampus Ini"}</div>
-                                                    </div>
-                                                    <div className="text-green-600 font-bold text-xs bg-green-50 px-2 py-1 rounded">
-                                                        Pass: {rec.passing_grade}
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
+                            {/* Smart Recommendations Display */}
+                            {prediction.recommendations && prediction.recommendations.length > 0 && (
+                                <div className="w-full mt-2 pt-4 border-t border-red-200">
+                                    <div className="flex items-center gap-2 mb-3 text-red-800 font-semibold text-sm">
+                                        <Trophy className="h-4 w-4" />
+                                        Rekomendasi Pintar ("Safety Net")
                                     </div>
-                                )}
-                            </CardFooter>
-                        )}
-                    </Card>
+                                    <div className="space-y-2">
+                                        {prediction.recommendations.map((rec: any, idx: number) => (
+                                            <div key={idx} className="bg-white p-3 rounded-lg border shadow-sm text-sm flex justify-between items-center">
+                                                <div>
+                                                    <div className="font-medium text-slate-800">{rec.name}</div>
+                                                    <div className="text-xs text-slate-500">{rec.uni || "Jurusan Lain di Kampus Ini"}</div>
+                                                </div>
+                                                <div className="text-green-600 font-bold text-xs bg-green-50 px-2 py-1 rounded">
+                                                    Pass: {rec.passing_grade}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </CardFooter>
+                    )}
+                </Card>
 
-                </div>
             </div>
         </div>
+        </div >
     );
 }
