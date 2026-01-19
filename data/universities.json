@@ -1,0 +1,99 @@
+[
+    {
+        "id": "unmul",
+        "name": "Universitas Mulawarman",
+        "type": "PTN",
+        "location": "Samarinda",
+        "accreditation": "A",
+        "website": "https://unmul.ac.id",
+        "programs": [
+            "Pendidikan Dokter",
+            "Farmasi",
+            "Teknik Informatika",
+            "Hukum",
+            "Ekonomi"
+        ],
+        "cost_range": "low",
+        "description": "Universitas tertua dan terbesar di Kalimantan Timur."
+    },
+    {
+        "id": "itk",
+        "name": "Institut Teknologi Kalimantan",
+        "type": "PTN",
+        "location": "Balikpapan",
+        "accreditation": "B",
+        "website": "https://itk.ac.id",
+        "programs": [
+            "Teknik Mesin",
+            "Teknik Sipil",
+            "Sistem Informasi",
+            "Matematika"
+        ],
+        "cost_range": "medium",
+        "description": "Institut teknologi negeri yang fokus pada kebutuhan industri di Kalimantan."
+    },
+    {
+        "id": "polnes",
+        "name": "Politeknik Negeri Samarinda",
+        "type": "PTN",
+        "location": "Samarinda",
+        "accreditation": "B",
+        "website": "https://polnes.ac.id",
+        "programs": [
+            "Teknik Alat Berat",
+            "Akuntansi",
+            "Desain Produk",
+            "Pariwisata"
+        ],
+        "cost_range": "low",
+        "description": "Pendidikan vokasi terkemuka di Kalimantan Timur."
+    },
+    {
+        "id": "umkt",
+        "name": "Universitas Muhammadiyah Kalimantan Timur",
+        "type": "PTS",
+        "location": "Samarinda",
+        "accreditation": "Baik Sekali",
+        "website": "https://umkt.ac.id",
+        "programs": [
+            "Keperawatan",
+            "Teknik Mesin",
+            "Psikologi",
+            "Manajemen"
+        ],
+        "cost_range": "medium",
+        "description": "PTS terbesar di Kaltim dengan fasilitas modern."
+    },
+    {
+        "id": "untag-smd",
+        "name": "Universitas 17 Agustus 1945 Samarinda",
+        "type": "PTS",
+        "location": "Samarinda",
+        "accreditation": "B",
+        "website": "https://untag-smd.ac.id",
+        "programs": [
+            "Hukum",
+            "Administrasi Negara",
+            "Teknik Sipil",
+            "Arsitektur"
+        ],
+        "cost_range": "medium",
+        "description": "Kampus Merah Putih dengan sejarah panjang di Samarinda."
+    },
+    {
+        "id": "uniba",
+        "name": "Universitas Balikpapan",
+        "type": "PTS",
+        "location": "Balikpapan",
+        "accreditation": "B",
+        "website": "https://uniba-bpn.ac.id",
+        "programs": [
+            "K3",
+            "Teknik Sipil",
+            "Sastra Inggris",
+            "Hukum"
+        ],
+        "cost_range": "medium",
+        "description": "Universitas swasta terkemuka di kota minyak Balikpapan."
+    }
+]
